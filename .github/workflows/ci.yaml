@@ -7,9 +7,9 @@ on:
 
 jobs:
   check:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
-      - neme: Testing
+      - name: Testing
         run: |
             echo "Testing CI/CD pipelines"
             echo "Petch x Poom"
